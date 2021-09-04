@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+#top-card {
+    width: 100vw;
+    height: 20vh;
+    background-color: gray;
+    background-image: url("https://images.theconversation.com/files/49135/original/22qc7r28-1400667334.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip");
+}
+#top-card h1{
+    font-size: 10vh;
+    text-align: center;
+}
