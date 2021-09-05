@@ -1,15 +1,24 @@
-*{
-    padding: 0%;
-    margin: 0;
+* {
+  padding: 0%;
+  margin: 0;
 }
 
 #top-card {
-    width: 100vw;
-    height: 20vh;
-    background-color: gray;
-    background-image: url("https://images.theconversation.com/files/49135/original/22qc7r28-1400667334.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip");
+  width: 100vw;
+  height: 20vh;
 }
-#top-card h1{
-    font-size: 10vh;
-    text-align: center;
+h1 {
+  font-size: 10vh;
+  text-align: center;
+  animation-name: top-card-name;
+  animation-duration: 1.4s;
+  animation-iteration-count: 1;
+}
+@keyframes top-card-name {
+  10% {
+        margin-left : 53%;
+    }
+    20%{
+        -webkit-background-clip: url(/public/images/top-card-img.jpg);
+    }
 }
