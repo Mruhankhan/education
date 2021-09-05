@@ -7,7 +7,7 @@
   width: 100vw;
   height: 20vh;
 }
-h1 {
+#top-card #top-card-h1 {
   font-size: 10vh;
   text-align: center;
   animation-name: top-card-name;
@@ -19,6 +19,6 @@ h1 {
         margin-left : 53%;
     }
     20%{
-        -webkit-background-clip: url(/public/images/top-card-img.jpg);
+      
     }
 }
