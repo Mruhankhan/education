@@ -16,9 +16,14 @@
 }
 @keyframes top-card-name {
   10% {
-        margin-left : 53%;
-    }
-    20%{
-      
-    }
+    margin-left: 53%;
+  }
+}
+#top-card-button {
+  position: absolute;
+  top: 2vh;
+  left: 90%;
+  animation-name: top-card-name;
+  animation-duration: 1.4s;
+  animation-iteration-count: 1;
 }
