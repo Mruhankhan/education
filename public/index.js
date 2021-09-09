@@ -1,8 +1,13 @@
 let topCardButton = document.getElementById("top-card-button")
+let whatGetStartedButton = document.getElementById("what-get-started-button")
 
 topCardButton.addEventListener("click", () => {
-  document.location = "/getStarted/index.html"
+  document.location = "https://http://localhost:3000/"
 })
+whatGetStartedButton.addEventListener("click", () => {
+  document.location = "https://http://localhost:3000/"
+})
+
 timeOutTopCard(1200)
   .then(() => {
     let topCardH1 = document.getElementById("top-card-h1")
@@ -33,6 +38,13 @@ timeOutTopCard(1200)
   .catch((e) => {
     console.error(e)
     Promise.reject(e)
+  })
+  .then(() => {
+    try {
+      Promise.resolve(timeOutTopCard())
+    } catch {
+      Promise.reject(timeOutTopCard())
+    }
   })
 
 function timeOutTopCard(time) {
