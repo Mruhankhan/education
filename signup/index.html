@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <form action="">
+    <div id="div"></div>
+    <form id="form">
       <div id="name">
         <div class="form-group">
           <label for="name">Name</label>
@@ -63,12 +66,24 @@
                 name="child"
                 id="child"
                 value="checkedValue"
-                checked
               />
               Child
             </label>
+            <label class="form-check-label">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="parent"
+                id="parent"
+                value="checkedValue"
+              />
+              Parent
+            </label>
           </div>
         </div>
+        <button type="button" class="btn btn-primary" type="submit" id="button">
+          Sign Me Up!
+        </button>
       </div>
     </form>
   </body>
