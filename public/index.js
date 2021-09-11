@@ -2,10 +2,10 @@ let topCardButton = document.getElementById("top-card-button")
 let whatGetStartedButton = document.getElementById("what-get-started-button")
 
 topCardButton.addEventListener("click", () => {
-  document.location = "localhost:3000"
+  document.location = "/getStarted/index.html"
 })
 whatGetStartedButton.addEventListener("click", () => {
-  document.location = "localhost:3000"
+  document.location = "/getStarted/index.html"
 })
 
 timeOutTopCard(1200)
