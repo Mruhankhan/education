@@ -19,3 +19,23 @@
 # getStarted page
 
 # password amount bar
+
+# paypal setup
+
+# uuid
+
+---
+
+# express
+
+# javascript
+
+# html
+
+# css
+
+# bootStrap
+
+# nodemon
+
+# uuid

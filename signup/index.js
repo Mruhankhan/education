@@ -1,14 +1,14 @@
 let form = document.getElementById("form")
-let button = document.getElementById("button")
 let username = document.getElementById("username")
+let password = document.getElementById("password")
+
 let div = document.getElementById("div")
-form.addEventListener("click", (e) => {
+form.addEventListener("submit", e => {
   e.preventDefault()
-  if (username.value.length < 8) {
-    setTimeout(() => {
-      let h1 = document.createElement("h1")
-      h1.innerHTML = "Please Make Your Username Bigger"
-      div.append(h1)
-    }, 1000)
-  }
+  const error = []
+  if (username.value.length < 8) error.push("Please make the username longer")
+  if (username.value.length > 18) error.push("Please make the username shorter")
+  if (password.value.length < 8) error.push("Please make password longer")
+  if (password.value.length > 18) error.push("Please make the password shorter")
+  div.append(error)
 })
