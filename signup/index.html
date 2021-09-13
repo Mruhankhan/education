@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <script defer src="index.js"></script>
   </head>
   <body>
     <div id="div"></div>
     <form id="form">
+      <input id="name" type="text" placeholder="Please enter your name" />
       <input id="username" type="text" placeholder="Please Enter Username" />
       <small>Make It A Good!</small>
-      <input id="password" type="password" />
+      <input id="password" type="password" placeholder="Make a good Password" />
+      <div id="password-word"></div>
       <small>Make It strong</small>
       <div id="who-is">
         <h1>Who are you?</h1>
-        <ol>
+        <input type="radio" name="person-is-using" />
+        Teacher
+        <input type="radio" name="person-is-using" />
+        Student
+        <input type="radio" name="person-is-using" />
+        Parent
       </div>
       <button id="submit" type="submit">sa</button>
     </form>
