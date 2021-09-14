@@ -8,6 +8,8 @@
 
 # cards
 
+# getStarted page
+
 ---
 
 # advanced version
@@ -20,17 +22,23 @@
 
 # sign up page
 
-# getStarted page
-
 # password amount bar
 
 # paypal setup
 
 # uuid
 
-# Password Word ss
+# Password Word
 
-s---
+# points system
+
+# member sip pop quiz
+
+# member tag
+
+# advanced version flexbox
+
+---
 
 # express
 
@@ -47,3 +55,5 @@ s---
 # uuid
 
 # Google Fonts
+
+# paypal api

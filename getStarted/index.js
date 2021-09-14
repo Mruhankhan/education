@@ -5,5 +5,5 @@ button.addEventListener("click", () => {
 })
 
 advancedVersion.addEventListener("click", () => {
-  document.location = "/advanced-version/index.html"
+  document.location = "/advancedVersion/index.html"
 })
