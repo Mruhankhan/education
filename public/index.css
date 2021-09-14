@@ -45,6 +45,9 @@ img {
 #contact {
   background-color: lightsalmon;
 }
+#advanced {
+  background-color: lightgray;
+}
 @media (max-width: 960px) {
   #get-div {
     height: 60vh;

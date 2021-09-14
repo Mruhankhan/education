@@ -10,6 +10,10 @@
 
 ---
 
+# advanced version
+
+# error spell
+
 # make moblie version
 
 # shell format
@@ -24,9 +28,9 @@
 
 # uuid
 
-# Password Word sssss
+# Password Word ss
 
----
+s---
 
 # express
 
@@ -41,3 +45,5 @@
 # nodemon
 
 # uuid
+
+# Google Fonts
