@@ -2,7 +2,11 @@
   margin: 0%;
   padding: 0%;
 }
-
+div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
 #low {
   background-color: lightblue;
   width: 33vw;
@@ -17,4 +21,7 @@
   background-color: lightcoral;
   width: 33vw;
   height: 100vh;
+}
+ol {
+  display: flex;
 }
