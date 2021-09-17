@@ -4,35 +4,45 @@
 }
 div {
   display: flex;
+  justify-content: center;
   text-align: center;
 }
 #low {
   background-color: lightblue;
-  width: 33vw;
+  width: 25vw;
   height: 100vh;
 }
 #middle {
   background-color: lightgreen;
-  width: 33vw;
+  width: 25vw;
   height: 100vh;
 }
 #high {
   background-color: lightcoral;
-  width: 33vw;
+  width: 25vw;
+  height: 100vh;
+}
+#advanced-tear {
+  background-color: lightseagreen;
+  width: 25vw;
   height: 100vh;
 }
 li {
   position: relative;
-  top: 50%;
+  top: 15vw;
   justify-content: center;
-  float: left;
   font-size: 200%;
 }
 h1,
 h4 {
-  position: absolute;
+  position: relative;
 }
 h4 {
   display: flex;
   justify-content: space-around;
+}
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
