@@ -4,8 +4,7 @@
 }
 div {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  text-align: center;
 }
 #low {
   background-color: lightblue;
@@ -22,6 +21,18 @@ div {
   width: 33vw;
   height: 100vh;
 }
-ol {
+li {
+  position: relative;
+  top: 50%;
+  justify-content: center;
+  float: left;
+  font-size: 200%;
+}
+h1,
+h4 {
+  position: absolute;
+}
+h4 {
   display: flex;
+  justify-content: space-around;
 }
