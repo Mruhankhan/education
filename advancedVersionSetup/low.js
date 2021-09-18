@@ -1,3 +1,5 @@
+const uuid = require("uuid")
+console.log(uuid.v4())
 paypal
   .Buttons({
     style: {
@@ -25,8 +27,8 @@ paypal
             },
             items: [
               {
-                name: "Laptop",
-                description: "Hp Laptop",
+                name: "Low Tear Package",
+                description: "Low Tear Package",
                 unit_amount: {
                   currency_code: "USD",
                   value: "5.99",
@@ -40,7 +42,7 @@ paypal
     },
     onApprove: function (actions) {
       return actions.order.capture().then(function () {
-        window.location = "/app/index.html"
+        window.location = "/app-advanced-uuid/index.html"
       })
     },
   })
