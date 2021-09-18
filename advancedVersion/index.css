@@ -9,21 +9,25 @@ div {
   background-color: lightblue;
   width: 25vw;
   height: 100vh;
+  cursor: pointer;
 }
 #middle {
   background-color: lightgreen;
   width: 25vw;
   height: 100vh;
+  cursor: pointer;
 }
 #high {
   background-color: lightcoral;
   width: 25vw;
   height: 100vh;
+  cursor: pointer;
 }
 #advanced-tear {
   background-color: lightseagreen;
   width: 25vw;
   height: 100vh;
+  cursor: pointer;
 }
 li {
   position: relative;
