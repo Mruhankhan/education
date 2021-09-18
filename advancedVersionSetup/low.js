@@ -15,23 +15,11 @@ paypal
           {
             amount: {
               currency_code: "USD",
-              breakdown: {
-                item_total: { currency_code: "USD", value: 1 },
-                shipping: { currency_code: "USD", value: 100 },
-                tax_total: { currency_code: "USD", value: 0.08 },
-              },
-            },
-          },
-        ],
-        purchase_units: [
-          {
-            amount: {
-              currency_code: "USD",
-              value: "8150",
+              value: "1200",
               breakdown: {
                 item_total: {
                   currency_code: "USD",
-                  value: "8150",
+                  value: "1200",
                 },
               },
             },

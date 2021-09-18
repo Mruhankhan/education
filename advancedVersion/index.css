@@ -4,8 +4,6 @@
 }
 div {
   display: flex;
-  justify-content: center;
-  text-align: center;
 }
 #low {
   background-color: lightblue;
@@ -29,20 +27,8 @@ div {
 }
 li {
   position: relative;
-  top: 15vw;
+  top: 10vw;
   justify-content: center;
   font-size: 200%;
-}
-h1,
-h4 {
-  position: relative;
-}
-h4 {
-  display: flex;
-  justify-content: space-around;
-}
-li {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  right: 6vw;
 }
