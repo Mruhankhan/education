@@ -10,11 +10,13 @@
 
 # getStarted page
 
+# advanced version flexbox
+
+# advanced version
+
 ---
 
 # first time quiz
-
-# advanced version
 
 # error spell
 
@@ -38,7 +40,7 @@
 
 # member tag
 
-# advanced version flexbox
+# mini roughts for app
 
 ---
 

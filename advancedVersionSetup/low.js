@@ -15,11 +15,11 @@ paypal
           {
             amount: {
               currency_code: "USD",
-              value: "1200",
+              value: "5.99",
               breakdown: {
                 item_total: {
                   currency_code: "USD",
-                  value: "1200",
+                  value: "5.99",
                 },
               },
             },
@@ -29,7 +29,7 @@ paypal
                 description: "Hp Laptop",
                 unit_amount: {
                   currency_code: "USD",
-                  value: "1200",
+                  value: "5.99",
                 },
                 quantity: "1",
               },
@@ -39,10 +39,8 @@ paypal
       })
     },
     onApprove: function (actions) {
-      return actions.order.capture().then(function (orderData) {
-        console.log("Capture result", orderData, JSON.stringify(orderData, null, 2))
-        var transaction = orderData.purchase_units[0].payments.captures[0]
-        alert("Transaction " + transaction.status + ":" + transaction.id + "\n\nSee console for all available details")
+      return actions.order.capture().then(function () {
+        window.location = "/app/index.html"
       })
     },
   })
