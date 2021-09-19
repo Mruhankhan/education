@@ -25,8 +25,8 @@ paypal
             },
             items: [
               {
-                name: "Low Tear Package",
-                description: "Low Tear Package",
+                name: "Middle Tear Package",
+                description: "Middle Tear Package",
                 unit_amount: {
                   currency_code: "USD",
                   value: "5.99",

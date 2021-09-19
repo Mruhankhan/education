@@ -2,9 +2,9 @@ paypal
   .Buttons({
     style: {
       shape: "pill",
-      color: "white",
+      color: "silver",
       layout: "vertical",
-      label: "checkout",
+      label: "paypal",
     },
     onError: function (err) {
       console.log(err)
@@ -15,21 +15,21 @@ paypal
           {
             amount: {
               currency_code: "USD",
-              value: "5.99",
+              value: "12.99",
               breakdown: {
                 item_total: {
                   currency_code: "USD",
-                  value: "5.99",
+                  value: "12.99",
                 },
               },
             },
             items: [
               {
-                name: "Low Tear Package",
-                description: "Low Tear Package",
+                name: "High Tear Package",
+                description: "High Tear Package",
                 unit_amount: {
                   currency_code: "USD",
-                  value: "5.99",
+                  value: "12.99",
                 },
                 quantity: "1",
               },
