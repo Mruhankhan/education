@@ -14,7 +14,13 @@
 
 # advanced version
 
+# paypal setup
+
 ---
+
+# ejs
+
+# payal workable
 
 # first time quiz
 
@@ -28,12 +34,6 @@
 
 # password amount bar
 
-# paypal setup
-
-# uuid
-
-# Password Word
-
 # points system
 
 # member sip pop quiz
@@ -41,6 +41,10 @@
 # member tag
 
 # mini roughts for app
+
+# fix again bug in sign up
+
+# after setup page
 
 ---
 
@@ -62,6 +66,4 @@
 
 # paypal api
 
----
-
-# setup page
+# ejs
