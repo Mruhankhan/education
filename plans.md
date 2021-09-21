@@ -18,8 +18,6 @@
 
 ---
 
-# ejs
-
 # payal workable
 
 # first time quiz
@@ -46,6 +44,8 @@
 
 # after setup page
 
+# setup mongoose
+
 ---
 
 # express
@@ -60,10 +60,8 @@
 
 # nodemon
 
-# uuid
-
 # Google Fonts
 
 # paypal api
 
-# ejs
+# mongoose
