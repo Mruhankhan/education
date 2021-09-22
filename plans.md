@@ -16,6 +16,10 @@
 
 # paypal setup
 
+# fix again bug in sign up
+
+# sign up page
+
 ---
 
 # payal workable
@@ -28,8 +32,6 @@
 
 # shell format
 
-# sign up page
-
 # password amount bar
 
 # points system
@@ -40,11 +42,11 @@
 
 # mini roughts for app
 
-# fix again bug in sign up
-
 # after setup page
 
-# setup mongoose
+# mongoose set up
+
+# set up what grade
 
 ---
 
@@ -63,5 +65,3 @@
 # Google Fonts
 
 # paypal api
-
-# mongoose
