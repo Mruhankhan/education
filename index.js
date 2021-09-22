@@ -7,6 +7,7 @@ mongoose.connect("mongodb://localhost/database", {
 })
 
 app.set("view engine", "ejs")
+app.use(express.static(__dirname + "/public"))
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static("public"))
 app.use("/getStarted", express.static("getStarted"))
@@ -19,7 +20,7 @@ app.listen(8000, () => {
 })
 
 app.get("/signup", (req, res) => {
-  res.render("index")
+  res.render("signup")
 })
 
 app.post("/database", async (req, res) => {
