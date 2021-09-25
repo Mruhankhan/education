@@ -7,7 +7,8 @@ app.use("/signup", express.static("signup"))
 app.use("/advancedVersion", express.static("advancedVersion"))
 app.use("/advancedVersionSetup", express.static("advancedVersionSetup"))
 app.use("/app", express.static("app"))
-
+app.use("/firstGrade", express.static("firstGrade"))
+app.use("/secondGrade", express.static("secondGrade"))
 app.listen(8000, () => {
   console.log("App listening on port 8000!")
 })
@@ -15,9 +16,6 @@ app.listen(8000, () => {
 app.get("/signup", (req, res) => {
   res.render("signup")
 })
-const firstGradeRouter = require("./routes/firstGrade")
-
-app.use("/firstGrade", firstGradeRouter)
 
 app.post("/database", async (req, res) => {
   await databaseStorage.create({})

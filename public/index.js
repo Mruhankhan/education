@@ -35,7 +35,7 @@ timeOutTopCard(1200)
     topCardH1.innerText = "Sign Up Now For Free!"
     return timeOutTopCard(2200)
   })
-  .catch((e) => {
+  .catch(e => {
     console.error(e)
     Promise.reject(e)
   })
@@ -46,9 +46,8 @@ timeOutTopCard(1200)
       Promise.reject(timeOutTopCard())
     }
   })
-
 function timeOutTopCard(time) {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     setTimeout(resolve, time)
   })
 }

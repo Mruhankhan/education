@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  background-color: lightgoldenrodyellow;
+}
+div {
+  width: 1000px;
+  height: 560px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
