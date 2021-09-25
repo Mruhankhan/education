@@ -20,7 +20,11 @@
 
 # sign up page
 
+# after setup page
+
 ---
+
+# title pages
 
 # payal workable
 
@@ -32,19 +36,11 @@
 
 # shell format
 
-# password amount bar
-
 # points system
 
 # member sip pop quiz
 
 # member tag
-
-# mini roughts for app
-
-# after setup page
-
-# mongoose set up
 
 # set up what grade
 
