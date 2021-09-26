@@ -16,4 +16,7 @@ form.addEventListener("submit", e => {
       questionItem.classList.remove("form-li-correct")
     }
   })
+  setTimeout(() => {
+    window.location = "/firstGrade/firstGrade.html"
+  }, 2000)
 })
