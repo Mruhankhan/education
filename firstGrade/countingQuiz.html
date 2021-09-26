@@ -1,102 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Forms</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <script defer src="/firstGrade/countingQuiz.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="/firstGrade/countingQuiz.js" defer></script>
     <link rel="stylesheet" href="/firstGrade/countingQuiz.css" />
   </head>
+
   <body>
-    <h1>Counting Quiz</h1>
-    <form id="form" action="/firstGrade/firstGrade.html">
-      <div id="question-1">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
+    <h1>Pre countingQuiz</h1>
+    <br>
+    <form id="form">
+      <h1>How do you write one?</h1>
+      <div>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-1" id="radio" value="wrong" />
+            10
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-1" id="radio" value="wrong" />
+            2
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-1" id="radio" value="wrong" />
+            22
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-1" id="radio" value="correct" />
+            1
+          </label>
+        </li>
       </div>
-      <div id="question-2">
-        <h3>How is 10 written</h3>
-        <label> five <input type="radio" name="radio" value="false" /> </label>
-        <label> eleven <input type="radio" name="radio" value="false" /> </label>
-        <label> ten <input type="radio" name="radio" value="true" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
+      <div>
+        <h1>How do you write twenty?</h1>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-2" id="radio" value="correct" />
+            20
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-2" id="radio" value="wrong" />
+            14
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-2" id="radio" value="wrong" />
+            4
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-2" id="radio" value="wrong" />
+            16
+          </label>
+        </li>
       </div>
-      <div id="question-3">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
+      <div>
+        <h1>How do you write seventeen</h1>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-3" id="radio" value="wrong" />
+            27
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-3" id="radio" value="correct" />
+            17
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-3" id="radio" value="wrong" />
+            3
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-3" id="radio" value="wrong" />
+            18
+          </label>
+        </li>
       </div>
-      <div id="question-4">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
+      <div>
+        <h1>How to do you write eleven</h1>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-4" id="radio" value="wrong" />
+            24
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-4" id="radio" value="wrong" />
+            27
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-4" id="radio" value="correct" />
+            11
+          </label>
+        </li>
+        <li class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="name-question-4" id="radio" value="wrong" />
+            none
+          </label>
+        </li>
       </div>
-      <div id="question-5">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-
-      <div id="question-6">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <div id="question-7">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <div id="question-8">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <div id="question-9">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-
-      <div id="question-10">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <div id="question-11">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <div id="question-12">
-        <h3>How is 1 written</h3>
-        <label> one <input type="radio" name="radio" value="true" /> </label>
-        <label> two <input type="radio" name="radio" value="false" /> </label>
-        <label> seven <input type="radio" name="radio" value="false" /> </label>
-        <label> nine <input type="radio" name="radio" value="false" /> </label>
-      </div>
-      <button>Submit</button>
+      <div>
+        <div>
+          <h1>How do you write 17</h1>
+          <li class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="name-question-5" id="radio" value="correct" />
+              seventeen
+            </label>
+          </li>
+          <li class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="name-question-5" id="radio" value="wrong" />
+              eight
+            </label>
+          </li>
+          <li class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="name-question-5" id="radio" value="wrong" />
+              four
+            </label>
+          </li>
+          <li class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="name-question-5" id="radio" value="wrong" />
+              none
+            </label>
+          </li>
+        </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
     </form>
   </body>
 </html>
+
