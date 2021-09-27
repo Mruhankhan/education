@@ -1,6 +1,6 @@
-let countingQuiz = document.getElementById("counting-quiz")
-countingQuiz.addEventListener("click", () => {
+let countingQuiz = document.getElementById("counting-quiz").addEventListener("click", () => {
   window.location = "/firstGrade/countingQuiz.html"
-  countingQuiz.remove()
-  localStorage.setItem("i", countingQuiz)
+})
+let addingQuiz = document.getElementById("adding-quiz").addEventListener("click", () => {
+  window.location = "/firstGrade/adding.html"
 })
