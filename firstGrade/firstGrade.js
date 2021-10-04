@@ -4,3 +4,11 @@ let countingQuiz = document.getElementById("counting-quiz").addEventListener("cl
 let addingQuiz = document.getElementById("adding-quiz").addEventListener("click", () => {
   window.location = "/firstGrade/adding.html"
 })
+
+let counting = document.getElementById("counting")
+
+counting.addEventListener("click", () => {
+  counting.remove()
+})
+
+localStorage.setItem(counting, "counting")
