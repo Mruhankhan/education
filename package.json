@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "mocha",
+    "snowpack": "snowpack dev",
+    "snowpackbuild": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,11 @@
   },
   "homepage": "https://github.com/Mruhankhan/education#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "snowpack": "^3.8.8"
   },
   "devDependencies": {
+    "mocha": "^9.1.2",
     "nodemon": "^2.0.12"
   }
 }

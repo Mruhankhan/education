@@ -34,7 +34,7 @@
 
 # error spell
 
-# make moblie version
+# make mobile version
 
 # shell format
 
@@ -45,21 +45,3 @@
 # member tag
 
 # set up what grade
-
----
-
-# express
-
-# javascript
-
-# html
-
-# css
-
-# bootStrap
-
-# nodemon
-
-# Google Fonts
-
-# paypal api
