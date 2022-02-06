@@ -20,19 +20,21 @@
 
 # sign up page
 
-# after setup page
+# set up what grade
 
----
+# after setup page
 
 # make more counting questions
 
-# title pages
-
 # payal workable
 
-# first time quiz
-
 # error spell
+
+---
+
+# title pages
+
+# first time quiz
 
 # make mobile version
 
@@ -43,5 +45,3 @@
 # member sip pop quiz
 
 # member tag
-
-# set up what grade

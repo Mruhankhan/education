@@ -10,5 +10,3 @@ let counting = document.getElementById("counting")
 counting.addEventListener("click", () => {
   counting.remove()
 })
-
-localStorage.setItem(counting, "counting")
